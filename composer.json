@@ -1,6 +1,5 @@
 {
   "name": "mrbenosborne/laravel-database-seed-trait",
-  "version": "1.0.0",
   "description": "Seed a database within Laravel tests just by using a trait.",
   "keywords": [
     "laravel",
