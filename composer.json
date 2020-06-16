@@ -1,0 +1,39 @@
+{
+  "name": "mrbenosborne/laravel-database-seed-trait",
+  "version": "1.0.0",
+  "description": "Seed a database within Laravel tests just by using a trait.",
+  "keywords": [
+    "laravel",
+    "seed",
+    "database",
+    "migration"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ben Osborne",
+      "email": "hello@benosborne.io"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "^5.5|^6|^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Database\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Database\\ServiceProvider"
+      ]
+    }
+  },
+  "require-dev": {
+    "laravel/framework": "5.5.x"
+  }
+}
