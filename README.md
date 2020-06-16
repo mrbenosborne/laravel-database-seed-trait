@@ -1,6 +1,11 @@
 # Laravel Database Seed Trait
 Seed a database within Laravel tests just by using a trait.
 
+# Install
+```
+composer require mrbenosborne/laravel-database-seed-trait
+```
+
 # Example
 The trait will use the default seeder "DatabaseSeeder", and the default connection specified in your app config.
 
